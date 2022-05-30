@@ -1,11 +1,15 @@
 .pageside {
-    background-color: #ffdddd;
+    background-color: #ffeeee;
     max-width: 800px;
     position: relative;
 }
+.maindesc {
+    font-size: 9px;
+    margin-bottom: 9px;
+}
 
 .container {
-    background-color: #ddddff;
+    background-color: #eeeeff;
     max-width: 800px;
 
     position: relative;
@@ -27,14 +31,23 @@ input[type=radio] {
 }
 
 input[type=radio]:checked + label {
-    background-color: #ffffdd;
+    background-color: #ffffee;
+}
+
+#foot-main , #head-main {
+    display: flex;
+}
+.footcell a , .headcell a {
+    text-decoration: none;
+    padding: 3px 5px;
+    border-radius: 5px;
 }
 
 .cpbutton a {
     /*height: 80%;
     width: 80%;*/
     color: #fff;
-    background: #ddddff;
+    background: #eeeeff;
     padding: 3px 5px;
     display: inline-block;
     border-radius: 5px;
