@@ -1,0 +1,43 @@
+.pageside {
+    background-color: #ffdddd;
+    max-width: 800px;
+    position: relative;
+}
+
+.container {
+    background-color: #ddddff;
+    max-width: 800px;
+
+    position: relative;
+}
+
+.txtcell {
+    display: flex;
+}
+
+input[type=radio] {
+    display:none;
+}
+
+.label {
+    display:block;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 800px;
+}
+
+input[type=radio]:checked + label {
+    background-color: #ffffdd;
+}
+
+.cpbutton a {
+    /*height: 80%;
+    width: 80%;*/
+    color: #fff;
+    background: #ddddff;
+    padding: 3px 5px;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
