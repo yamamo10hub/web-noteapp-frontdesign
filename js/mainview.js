@@ -8,7 +8,7 @@ function exeCp (lineno) {
 
 
 function valueChange(event){
-    //alert("何かおきました！ " + event.target);
+    //alert("clipboard is " + event.target);
     //console.log(event);
     let lineall = document.getElementsByName('hilight');
 
@@ -24,8 +24,8 @@ function valueChange(event){
     });
 }
 
-let travelbox = document.getElementById('txtline');
-travelbox.addEventListener('change', valueChange);
+let lineselect = document.getElementById('txtline');
+lineselect.addEventListener('change', valueChange);
 
 //let selectradio = document.getElementsById('line3');
 //selectradio.addEventListener('change', valueChange);

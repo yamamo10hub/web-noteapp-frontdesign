@@ -19,20 +19,27 @@
 </header>
 
 <div class="container">
-<form id="txtline">
+<form name="docUpload">
+    <input name="upfile" type="file" />
+</form>
 
+<form id="txtline">
     <div class="txtcell">
-        <input type="radio" name="hilight" id="line3" value="3">
-        <label for="line3" class="label" id="labelline3">text3</label>
+        <input type="radio" name="hilight" id="line98" value="98">
+        <label for="line98" class="label" id="labelline98">text98</label>
     </div>
 
     <div class="txtcell">
-        <input type="radio" name="hilight" id="line4">
-        <label for="line4" class="label" id="labelline4">text4</label>
+        <input type="radio" name="hilight" id="line99">
+        <label for="line99" class="label" id="labelline99">text99</label>
     </div>
 
 </form>
 </div>
+
+<form action="txtop">
+    <textarea name="op3" id="op3" cols="30" rows="10"></textarea>
+</form>
 
 <footer class="pageside">
     <div id="foot-main">
@@ -41,7 +48,8 @@
         <div class="footcell"><a href="./next">next</a></div>
     </div>
 </footer>
-<script src="func.js"></script>
+<script src="./js/mainview.js"></script>
+<script src="./js/fsconv.js"></script>
 </script>
 </body>
 </html>
