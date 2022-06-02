@@ -4,6 +4,7 @@ form.upfile.addEventListener('change', function (e) {
 
 let result = e.target.files[0];
 console.log(result);
+//let blob = new Blob(result, {type:"text/plain;charset=Shift-JIS"})
 const reader = new FileReader();
 
 reader.onload = () => {
@@ -44,7 +45,7 @@ reader.onload = () => {
     }
     //tgtdom.innerText = docbody;
 }
-reader.readAsText(result);
+reader.readAsText(result, "Shift-JIS");
 
 //reader.addEventListener('load', function() {
 //    //form.output.textContent = reader.result;
