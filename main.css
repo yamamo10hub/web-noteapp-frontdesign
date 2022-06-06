@@ -1,5 +1,5 @@
 .pageside {
-    background-color: #ffeeee;
+    background-color: #FFCDD2;
     max-width: 800px;
     position: relative;
 }
@@ -9,14 +9,24 @@
 }
 
 .container {
-    background-color: #eeeeff;
+    background-color: #F5F5F5;
     max-width: 800px;
 
     position: relative;
 }
 
+#head-main {
+    padding-bottom: 10px;
+}
+
+input[name="upfile"] {
+    background: FFCDD2;
+    font-weight: bold;
+}
+
 .txtcell {
     display: flex;
+    padding-top: 1px;
 }
 
 input[type=radio] {
@@ -31,7 +41,8 @@ input[type=radio] {
 }
 
 input[type=radio]:checked + label {
-    background-color: #ffffee;
+    background-color: #FFF9C4;
+    font-weight: bold;
 }
 
 #foot-main , #head-main {
@@ -56,7 +67,7 @@ input[type=radio]:checked + label {
 
 textarea {
     resize: none;
-    width: 790px;
+    width: 785px;
     height: 100px;
     font-size: 100%;
     padding-left: 10px;	
