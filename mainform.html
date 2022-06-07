@@ -9,19 +9,23 @@
 </head>
 <body>
 <header class="pageside">
-    <div class="maintitle">作業用memoちょう</div>
-    <div class="maindesc">文章クリックでハイライト表示とコピーが可能</div>
-    <div class="spacer">    </dev>
+    <div class="maintitle">作業用クリップボード</div>
+    <div class="maindesc">文章クリックでハイライト表示とコピーをするだけ</div>
+<!--
     <div id="head-main">
         <div class="headcell">Title : </div>
         <div class="headcell" id="doctitle">noteTitle</div>
     </div>
+-->
+<div id="head-main">
+    <form name="docUpload">
+        <input name="upfile" type="file" />
+    </form>
+</div>
+
 </header>
 
 <div class="container">
-<form name="docUpload">
-    <input name="upfile" type="file" />
-</form>
 
 <form id="txtline">
     <div class="txtcell">
